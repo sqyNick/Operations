@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#3970a6</color>
+    <color name="colorAccent">#006ecb</color>
+    <color name="white">#fff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#3970a6</color>
+    <color name="textColor">#474747</color>
+    <color name="grayBackground">#eaeaea</color>
+    <color name="searchLinear">#dde3e3e3</color>
+    <color name="halftransparent">#33000000</color>
+    <color name="lightBlue">#7fb6e5</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="gray">#858585</color>
+    <color name="iconfont_blue">#1296db</color>
+
+    <color name="work_order_name">#424241</color>
+    <color name="work_order_time">#9c9c9c</color>
+    <color name="work_halder_name">#878585</color>
+    <color name="work_desc">#555454</color>
+
+    <color name="network_view">#fff6d9</color>
+</resources>

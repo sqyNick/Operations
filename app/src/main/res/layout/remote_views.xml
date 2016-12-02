@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/remoteViews"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:weightSum="12"
+    android:layout_height="match_parent">
+   <ImageView
+       android:layout_width="0dp"
+       android:layout_height="48dp"
+       android:layout_weight="3"
+       android:src="@mipmap/ic_launcher"
+       />
+    <TextView
+        android:layout_weight="9"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="新任务"
+        android:textSize="16sp"
+        android:textColor="@color/blue"
+        android:gravity="center_vertical"
+        />
+</LinearLayout>

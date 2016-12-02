@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="20px">
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75px"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="75px"
+            android:layout_weight="1"
+            android:textColor="@color/work_order_name"
+            android:textSize="@dimen/work_handler_name"
+            android:gravity="center_vertical"
+            android:text="工单名称:XXXXXXX" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="75px"
+            android:layout_weight="1"
+            android:textColor="@color/work_order_time"
+            android:textSize="@dimen/work_handler_name"
+            android:gravity="center_vertical|right"
+            android:text="2017-12-1 12:34" />
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="75px"
+        android:gravity="center_vertical"
+        android:textColor="@color/work_halder_name"
+        android:textSize="@dimen/work_handler_name"
+        android:text="责任人：XXX" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="75px"
+        android:gravity="center_vertical"
+        android:textColor="@color/work_halder_name"
+        android:textSize="@dimen/work_handler_name"
+        android:text="工单号：XXX" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="#e2e2e2"
+        android:layout_marginTop="35px"
+        />
+
+    <TextView
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:layout_height="75px"
+        android:textSize="@dimen/work_handler_name"
+        android:gravity="center_vertical"
+        android:textColor="@color/work_desc"
+        android:text="描述描述。。。。。。" />
+
+
+</com.zhy.autolayout.AutoLinearLayout>

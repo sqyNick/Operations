@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="3"
+    android:background="@color/white"
+    android:layout_height="48dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="48dp"
+        android:text="已完成"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="48dp"
+        android:text="未完成"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="48dp"
+        android:text="工单查询"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        />
+
+</LinearLayout>

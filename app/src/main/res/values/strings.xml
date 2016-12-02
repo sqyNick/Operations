@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Operations</string>
+    <!-- XListView-->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+
+    <string name="open">确定</string>
+    <string name="close">确定</string>
+    <!-- base info-->
+    <string name="sure">确定</string>
+    <string name="cancle">取消</string>
+    <!-- header-->
+    <string name="header_back">返回</string>
+    <string name="header_sign_out">退出</string>
+
+    <!-- event-->
+    <string name="work_order_list">工单列表</string>
+    <string name="work_order_detail">工单详情</string>
+
+    <!-- sign out-->
+    <string name="sign_out_title">是否退出，退出后将会接收不到最新任务？</string>
+    <string name="switch_user">切换用户</string>
+</resources>
